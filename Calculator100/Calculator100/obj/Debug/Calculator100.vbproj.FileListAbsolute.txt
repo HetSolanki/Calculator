@@ -1,0 +1,11 @@
+D:\Visual Basic\Calculator100\Calculator100\bin\Debug\Calculator100.exe.config
+D:\Visual Basic\Calculator100\Calculator100\bin\Debug\Calculator100.exe
+D:\Visual Basic\Calculator100\Calculator100\bin\Debug\Calculator100.pdb
+D:\Visual Basic\Calculator100\Calculator100\bin\Debug\Calculator100.xml
+D:\Visual Basic\Calculator100\Calculator100\obj\Debug\Calculator100.vbprojResolveAssemblyReference.cache
+D:\Visual Basic\Calculator100\Calculator100\obj\Debug\Calculator100.Form1.resources
+D:\Visual Basic\Calculator100\Calculator100\obj\Debug\Calculator100.Resources.resources
+D:\Visual Basic\Calculator100\Calculator100\obj\Debug\Calculator100.vbproj.GenerateResource.Cache
+D:\Visual Basic\Calculator100\Calculator100\obj\Debug\Calculator100.exe
+D:\Visual Basic\Calculator100\Calculator100\obj\Debug\Calculator100.xml
+D:\Visual Basic\Calculator100\Calculator100\obj\Debug\Calculator100.pdb
