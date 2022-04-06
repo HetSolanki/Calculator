@@ -105,16 +105,16 @@ Public Class Form1
         TextBox1.Text &= Button4.Text
         If TextBox1.Text <> "" Then
             If ope(0) <> "" Then
-                TextBox1.Text = d1 + Val(Button1.Text)
+                TextBox1.Text = d1 + Val(Button4.Text)
                 ope(0) = ""
             ElseIf ope(1) <> ""
-                TextBox1.Text = d1 - Val(Button1.Text)
+                TextBox1.Text = d1 - Val(Button4.Text)
                 ope(1) = ""
             ElseIf ope(2) <> ""
-                TextBox1.Text = d1 * Val(Button1.Text)
+                TextBox1.Text = d1 * Val(Button4.Text)
                 ope(2) = ""
             ElseIf ope(3) <> ""
-                TextBox1.Text = d1 / Val(Button1.Text)
+                TextBox1.Text = d1 / Val(Button4.Text)
                 ope(3) = ""
             End If
         End If
@@ -243,6 +243,50 @@ Public Class Form1
 
     Private Sub Button15_Click_1(sender As Object, e As EventArgs) Handles Button15.Click
         TextBox1.Clear()
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        If Button16.Text = "ON" Then
+            Button1.Enabled = False
+            Button2.Enabled = False
+            Button3.Enabled = False
+            Button4.Enabled = False
+            Button5.Enabled = False
+            Button6.Enabled = False
+            Button7.Enabled = False
+            Button8.Enabled = False
+            Button9.Enabled = False
+            Button10.Enabled = False
+            Button11.Enabled = False
+            Button12.Enabled = False
+            Button13.Enabled = False
+            Button14.Enabled = False
+            Button15.Enabled = False
+            TextBox1.Enabled = False
+            Button16.Text = "OFF"
+        Else
+            Button16.Text = "ON"
+            Button2.Enabled = True
+            Button3.Enabled = True
+            Button4.Enabled = True
+            Button5.Enabled = True
+            Button6.Enabled = True
+            Button7.Enabled = True
+            Button8.Enabled = True
+            Button1.Enabled = True
+            Button9.Enabled = True
+            Button10.Enabled = True
+            Button11.Enabled = True
+            Button12.Enabled = True
+            Button13.Enabled = True
+            Button14.Enabled = True
+            Button15.Enabled = True
+            TextBox1.Enabled = True
+        End If
+
+
+
+
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
