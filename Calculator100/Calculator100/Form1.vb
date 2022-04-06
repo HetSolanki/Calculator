@@ -52,7 +52,7 @@ Public Class Form1
         d1 = Val(Button2.Text)
     End Sub
 
-    Private Sub Button15_Click(sender As Object, e As EventArgs)
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
         TextBox1.Text = d1 + d2
     End Sub
 
@@ -285,6 +285,10 @@ Public Class Form1
 
 
 
+
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
 
     End Sub
 
