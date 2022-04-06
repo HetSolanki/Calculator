@@ -4,8 +4,7 @@ Public Class Form1
     Dim d1, d2 As Integer
     Dim ope(3) As String
 
-    Dim obj As SqlDataAdapter
-    Dim conn As New SqlConnection("Data Source=Dell-G3\sqlexpress;Initial Catalog=Student;Integrated Security=True")
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         TextBox1.Text &= Button1.Text
